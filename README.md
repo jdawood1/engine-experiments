@@ -1,6 +1,6 @@
 # Engine Experiments (Unity + UE5)
 
-Small, resume‑friendly sandbox that shows (1) a Unity gameplay micro‑prototype and (2) Unreal (UE5) **Editor Automation** via Python + Editor Utility Widget.
+Small sandbox that shows (1) a Unity gameplay micro‑prototype and (2) Unreal (UE5) **Editor Automation** via Python + Editor Utility Widget.
 
 <p align="center">
   <img src="docs/unity-demo.gif" alt="Unity demo gif" width="720"/>
