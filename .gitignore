@@ -1,0 +1,112 @@
+# ----------------------------
+# Global / Editors
+# ----------------------------
+.idea/
+*.iml
+.vscode/
+.vs/
+
+# ----------------------------
+# Python (for UE5 tooling, scripts)
+# ----------------------------
+.venv/
+venv*/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# ----------------------------
+# Unity (keep Assets/, Packages/, ProjectSettings/)
+# ----------------------------
+unity/**/[Ll]ibrary/
+unity/**/[Tt]emp/
+unity/**/[Oo]bj/
+unity/**/[Bb]uild/
+unity/**/[Bb]uilds/
+unity/**/[Ll]ogs/
+unity/**/UserSettings/
+unity/**/MemoryCaptures/
+
+# Unity project/IDE files
+unity/**/*.csproj
+unity/**/*.sln
+unity/**/*.user
+unity/**/*.pidb
+unity/**/*.booproj
+unity/**/*.svd
+unity/**/*.pdb
+unity/**/*.mdb
+unity/**/*.opendb
+unity/**/*.VC.db
+unity/**/*.unitypackage
+
+# Mobile build outputs
+unity/**/*.apk
+unity/**/*.aab
+unity/**/*.ipa
+unity/**/.gradle/
+unity/**/Pods/
+
+# Keep the important Unity dirs
+!unity/**/Assets/
+!unity/**/Packages/
+!unity/**/ProjectSettings/
+
+# ----------------------------
+# Unreal Engine 5
+# ----------------------------
+unreal/**/Binaries/
+unreal/**/Build/
+unreal/**/DerivedDataCache/
+unreal/**/Intermediate/
+unreal/**/Saved/
+
+# IDE files
+unreal/**/*.VC.db
+unreal/**/*.sln
+unreal/**/*.suo
+unreal/**/*.xcodeproj
+unreal/**/*.xcworkspace
+unreal/**/*.opensdf
+unreal/**/*.sdf
+unreal/**/*.VCXPROJ
+unreal/**/*.VCXPROJ.filters
+
+# Keep core UE project + source/content
+!unreal/**/*.uproject
+!unreal/**/Source/**
+!unreal/**/Config/**
+
+# Exclude stock StarterContent to keep repo small.
+# Remove this line if you REALLY want to include Epic's starter assets.
+unreal/**/Content/StarterContent/**
+
+# Optionally keep a specific small .uasset (example):
+# !unreal/EngineExperimentsUE5/Content/Editor/EUW_AssetTools.uasset
+
+# ----------------------------
+# Docs / misc
+# ----------------------------
+docs/**/.DS_Store
+
+# ----------------------------
+# OS / Misc
+# ----------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*.orig
+
+# Archives
+*.zip
+*.7z
+*.tar
+*.gz
+*.rar
